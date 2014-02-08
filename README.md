@@ -1,4 +1,4 @@
-# ruby-sample
+# ruby-rails-sample
 
 This is a barebones Ruby app using the [Rails](http://rubyonrails.org) framework.
 
