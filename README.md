@@ -1,5 +1,7 @@
 # ruby-rails-sample
 
+[![Deploy to Heroku](https://debut.heroku.com/deploy-button.png)](http://debut.heroku.com/templates?json=https://github.com/heroku-json/ruby-rails-sample)
+
 This is a barebones Ruby app using the [Rails](http://rubyonrails.org) framework.
 
 ## Running Locally
