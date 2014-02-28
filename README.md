@@ -1,6 +1,6 @@
 # ruby-rails-sample
 
-This is a barebones Ruby app using the [Rails](http://rubyonrails.org) framework.
+This is a simple Ruby app using the [Rails](http://rubyonrails.org) framework.
 
 ## Running Locally
 
