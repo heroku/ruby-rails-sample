@@ -1,0 +1,9 @@
+{
+  "name": "ruby-rails-sample",
+  "website": "http://rubyonrails.org",
+  "repository": "https://github.com/heroku/ruby-rails-sample",
+  "logo": "http://upload.wikimedia.org/wikipedia/commons/c/c3/Ruby_on_Rails_logo.svg",
+  "scripts": {
+    "postdeploy": "bundle && bundle exec rake bootstrap"
+  }
+}

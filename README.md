@@ -10,8 +10,7 @@ Asumming you have [Ruby](https://www.ruby-lang.org), [Bundler](http://bundler.io
 git clone git@github.com:heroku/ruby-rails-sample.git # or clone your own fork
 cd ruby-rails-sample
 bundle
-bundle exec rake db:create
-bundle exec rake db:migrate
+bundle exec rake bootstrap
 foreman start
 ```
 
