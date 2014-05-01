@@ -15,6 +15,8 @@ bundle exec rake db:migrate
 foreman start
 ```
 
+ehm
+
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
 ## Deploying to Heroku
