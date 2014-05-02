@@ -6,5 +6,6 @@
   "logo": "http://upload.wikimedia.org/wikipedia/commons/c/c3/Ruby_on_Rails_logo.svg",
   "scripts": {
     "postdeploy": "bundle && bundle exec rake bootstrap"
-  }
+  },
+  "addons": ["heroku-postgresql"]
 }
