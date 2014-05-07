@@ -1,3 +1,57 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  position: relative;
+  background: #222;
+  color: white;
+  font-family: 'Varela', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  line-height: 2;
+  font-weight: normal;
+}
+
+h2 {
+  color: #666;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: normal;
+}
+
+h2 a {
+  color: #666;
+}
+
+img#logo {
+  max-width: 320px;
+}
