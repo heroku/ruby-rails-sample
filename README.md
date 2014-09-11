@@ -1,6 +1,6 @@
 # ruby-rails-sample
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 This is a simple Ruby app using the [Rails](http://rubyonrails.org) framework.
 
