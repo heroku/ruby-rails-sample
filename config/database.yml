@@ -15,6 +15,10 @@
 # gem 'pg'
 #
 development:
+  host: <%= ENV.fetch('DB_1_PORT_5432_TCP_ADDR', 'localhost') %>
+  port: <%= ENV.fetch('DB_1_PORT_5432_TCP_PORT', '5432') %>
+  username: docker
+  password: docker
   adapter: postgresql
   encoding: unicode
   database: ruby-rails-sample_development
