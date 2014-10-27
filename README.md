@@ -37,6 +37,9 @@ fig up                    # starts the web application attached to the window
 
 The app should now be running on [localhost:3000](http://localhost:3000/).
 
+**Note**: The first time you run `fig up` will _pull_ (download) the necessary
+Docker images. This may take a while.
+
 Since the database has been setup, from now on it is possible to start both
 applications simply by running `fig up`. For stopping the applications, you may
 run `fig stop`. For removing the containers, you may run `fig rm`. Run
