@@ -1,5 +1,5 @@
 db:
-  image: orchardup/postgresql
+  image: postgres:9.3
   ports:
     - 5432
 web:
