@@ -6,7 +6,7 @@ This is a simple Ruby app using the [Rails](http://rubyonrails.org) framework.
 
 ## Running Locally
 
-Asumming you have [Ruby](https://www.ruby-lang.org), [Bundler](http://bundler.io) and [Heroku Toolbelt](https://toolbelt.heroku.com) installed on your machine:
+Make sure you have [Ruby](https://www.ruby-lang.org), [Bundler](http://bundler.io) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
 ```sh
 git clone git@github.com:heroku/ruby-rails-sample.git # or clone your own fork
