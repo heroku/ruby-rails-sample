@@ -8,9 +8,24 @@
     "postdeploy": "bundle exec rake db:migrate"
   },
   "env": {
-    "RAILS_ENV": "production",
-    "RACK_ENV": "production",
-    "RAILS_SERVE_STATIC_FILES": "true"
+    "HEROKU_APP_NAME": {
+      "required": true
+    },
+    "HEROKU_PARENT_APP_NAME": {
+      "required": true
+    },
+    "RAILS_ENV": {
+      "description": "Rails environment",
+      "value": "production"
+    },
+    "RACK_ENV": {
+      "description": "Rack environment",
+      "value": "production"
+    },
+    "RAILS_SERVE_STATIC_FILES": {
+      "description": "Serve static files?",
+      "value": "true"
+    },
   },
   "addons": ["heroku-postgresql"]
 }
