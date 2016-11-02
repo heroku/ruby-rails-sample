@@ -5,7 +5,7 @@
   "repository": "https://github.com/heroku/ruby-rails-sample",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Ruby_on_Rails_logo.svg",
   "scripts": {
-    "postdeploy": "bundle exec rake db:migrate"
+    "postdeploy": "echo HEROKU_APP_NAME=$HEROKU_APP_NAME; echo HEROKU_PARENT_APP_NAME=$HEROKU_PARENT_APP_NAME; bundle exec rake db:migrate"
   },
   "env": {
     "HEROKU_APP_NAME": {
