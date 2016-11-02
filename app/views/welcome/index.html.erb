@@ -2,3 +2,9 @@
 <p>
   The time is now: <%= Time.now %>
 </p>
+<p>
+  The app name is <%= ENV['HEROKU_APP_NAME'] %>
+</p>
+<p>
+  The parent app name is <%= ENV['HEROKU_PARENT_APP_NAME'] %>
+</p>
